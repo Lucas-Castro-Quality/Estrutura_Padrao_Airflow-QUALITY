@@ -1,0 +1,20 @@
+# Segredos e configuração local (cada máquina tem a sua)
+.env
+config/airflow.cfg
+config/webserver_config.py
+
+# Gerado pelo Airflow
+logs/*
+!logs/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Editor / sistema
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

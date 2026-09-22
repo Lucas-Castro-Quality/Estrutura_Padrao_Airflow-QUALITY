@@ -1,0 +1,4 @@
+# Ferramentas usadas só em desenvolvimento (execução dos testes de tests/). Não entra na imagem
+# do Airflow — ver Dockerfile e .dockerignore, que instalam só o requirements.txt.
+# Instalar: pip install -r requirements.txt -r requirements-dev.txt
+pytest>=8,<9
